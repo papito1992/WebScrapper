@@ -1,0 +1,141 @@
+
+
+body55 {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+.body{
+    /*font-family: TimesNewRoman,Helvetica,Geneba, sans-serif;*/
+    background-image: url(/staticResources/images/4.jpg); /*You will specify your image path here.*/
+
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    font-family: 'canterbold_3d';
+    font-style: italic;
+
+text-align: center;
+    font-size: 54px;
+color: #ffd25a;
+}
+.dindu{
+    font-family: 'canterbold_3d' ;
+    font-style: italic;
+    color: #ffd25a;
+}
+.body1{
+    /*font-family: TimesNewRoman,Helvetica,Geneba, sans-serif;*/
+    background-image: url(/staticResources/images/5.jpg); /*You will specify your image path here.*/
+
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    font-family: 'canterbold_3d';
+
+    text-align: center;
+    font-size: 44px;
+    color: #ffd25a;
+}
+.body2{
+    /*font-family: TimesNewRoman,Helvetica,Geneba, sans-serif;*/
+    background-image: url(/staticResources/images/6.jpg); /*You will specify your image path here.*/
+
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    font-family: 'canterbold_3d';
+font-style: italic;
+    text-align: center;
+    font-size: 44px;
+    color: #ffd25a;
+}
+.border{
+    border:  groove 2px;
+}
+#fonterino{font-family: 'canterlight';
+
+}
+.thead{
+    font-family: 'canterbold';
+    font-size: 34px;
+    color: #ffd566;
+}
+.trow{
+    font-family: 'canterlight';
+letter-spacing: 2px;
+    font-size: 24px;
+    color: #ffc420;
+}
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+.footer {
+    font-family: 'air_americanaregular';
+    font-size: 18px;
+    color: #ffbe39;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: right;
+}
+.padding{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.error{
+    color: #FF0000;
+}
+.success{
+    color: #0cff14;
+}
